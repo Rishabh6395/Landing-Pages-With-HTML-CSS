@@ -15,6 +15,12 @@ These landing pages are inspired by designs from **Pinterest** and **Figma**, br
 - **Pure HTML & CSS**: No frameworks, just HTML & CSS for simplicity and versatility.
 - **Inspiration from Real Designs**: Inspired by popular designs on Pinterest and Figma for that polished look.
 
+## Some Landing Pages:
+![Landing Page 1](![Landing Page Preview](https://raw.githubusercontent.com/Rishabh6395/Landing-Pages-With-HTML-CSS/master/01/Landing%20Page1.png)
+
+
+
+
 ## How to Use
 
 1. Clone or download the repository.
