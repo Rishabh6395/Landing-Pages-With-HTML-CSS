@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    
+    background-color:#D8DBE2;
+    display: flex;
+}
+#part1{
+    height: 100%;
+    width: 26%;
+    /* background-color: blue; */
+}
+#part2{
+    height: 100%;
+    width: 68%;
+    background-image: url(https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    /* background-color: green; */
+}
+#overlay{
+    height: 100%;
+    width: 100%;
+    background-color: #3131315d;
+}
+#part3{
+    height: 100%;
+    width: 6%;
+    background-color: #cca3d4;
+    /* background-color: yellow; */
+}
+#text-div{
+    /* height: 300px; */
+    position: absolute;
+    width: 400px;
+    /* background-color: red; */
+    left: 5%;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+#text-div>h1{
+    font-size: 140px;
+    letter-spacing: 40px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 500;
+    color: #4c4d50;
+    line-height: 150px;
+    text-transform: uppercase;
+}
+#small-img{
+    height: 800px;
+    width: 400px;
+    /* background-color: red; */
+    background-image: url(https://images.unsplash.com/photo-1502823403499-6ccfcf4fb453?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(0, -50%);
+}
+#overlay-ig{
+    height: 100%;
+    width: 100%;
+    background-color: #5b5e5c5e;
+}
+#vertical-text{
+    position: absolute;
+    transform: rotate(90deg);
+    right: -62%;
+    top: -7%;
+    transform-origin: 0% 0%;
+    /* width: 100%; */
+    /* background-color: red; */
+}
+#vertical-text h1{
+    font-size: 150px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: transparent;
+    letter-spacing: 30px;
+    /* transform: rotate(90deg); */
+    /* transform-origin: 0% 0%; */
+    font-family: Helvetica, sans-serif;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #fff;
+}
+#nav{
+    position: absolute;
+    width: 1100px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    left: 5%;
+    top: 7%;
+    justify-content: space-between;
+}
+#nav img{
+    height: 110px;
+}
+#nav h5{
+    font-size: 40px;
+    letter-spacing: 9px;
+    color: rgba(255, 255, 255, 0.815);
+    font-family: Arial, Helvetica, sans-serif;
+}
